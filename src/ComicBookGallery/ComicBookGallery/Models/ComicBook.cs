@@ -11,8 +11,7 @@ namespace ComicBookGallery.Models
         public string SeriesTitle { get; set; }
         public int IssueNumber { get; set; }
         public string DescriptionHtml { get; set; }
-        public Artist[] artists { get; set; }
-        public Artist[] Artists { get; internal set; }
+        public Artist[] Artists { get; set; }
         public bool favorite { get; set; }
 
         public string DisplayText
